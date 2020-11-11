@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+/*----------------------------------------------------Colours*/
+
+.ui-menu-color-home {
+    background-color: #ffffff
+}
+
+.ui-menu-color-gallery {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-cake {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-customer {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-shop {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-video {
+    background-color: #ffffff
+}
+
+/*----------------------------------------------------Heading*/
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("/assets/css/images/Epic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    padding-top: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 170px;
+    width: 222px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    height: 160px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*----------------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 170px;
+}
