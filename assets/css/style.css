@@ -97,6 +97,40 @@ header {
     letter-spacing: 2px;
 }
 
+/*----------------------------------------------------Images */
+#seasonal-image {
+    height: 600px;
+    width: 100%;
+    background: url("/assets/css/images/christmas-cake.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+}
+
+/*----------------------------------------------------Text */
+#seasonal-image-text h2 {
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+#seasonal-image-text {
+    color: #da1a1a;
+    font-size: 80%;
+    font-family: Quicksand;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+    bottom: 20px;
+    right: 240px;
+
+    position: absolute;
+}
+
 /*----------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
