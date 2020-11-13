@@ -76,10 +76,6 @@ h5 {
     padding: 20px;
 }
 
-
-
-
-
 /*----------------------------------------------------Heading */
 header {
     margin: 0;
@@ -149,6 +145,20 @@ header {
     text-transform: uppercase;
 }
 
+#shop h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+}
+
+#video-tutorials h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+}
+
 /*----------------------------------------------------Images */
 #seasonal-image {
     height: 600px;
@@ -178,12 +188,53 @@ header {
     border-radius: 50%;
 }
 
+#shop {
+    height: 600px;
+    width: 100%;
+    background: url("/assets/css/images/shop/rolling-pin.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+}
+
 /*----------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 170px;
 }
+
+/*----------------------------------------------------Carousel */
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: #fafafa;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-container {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/*----------------------------------------------------Video */
+
+
 
 /*----------------------------------------------------Footer */
 
