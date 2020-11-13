@@ -66,6 +66,20 @@ h5 {
     position: absolute;
 }
 
+.left-circle-caption {
+    width: 33%;
+    font-family: "Quicksand", sans-serif;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
 /*----------------------------------------------------Heading */
 header {
     margin: 0;
@@ -128,6 +142,13 @@ header {
     text-transform: uppercase;
 }
 
+#customer-favourites h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+}
+
 /*----------------------------------------------------Images */
 #seasonal-image {
     height: 600px;
@@ -137,7 +158,24 @@ header {
     position: relative;
 }
 
+#customer-favourites {
+    height: 600px;
+}
 
+#left-circle-container {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+
+#left-circle-cover-bg {
+    background: url("/assets/css/images/customer-favourites/customer1.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /*----------------------------------------------------Hover.css */
@@ -188,4 +226,3 @@ footer {
 #footer-about {
     padding-bottom: 0;
 }
-
