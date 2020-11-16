@@ -303,9 +303,9 @@ footer {
         letter-spacing: 2px;
     }
 
-    /*.menuitem a {
+    .menuitem a {
         height: 30px;
-    }*/
+    }
 
     .logo {
         min-height: 265px;
@@ -313,5 +313,31 @@ footer {
 
     .nav-bar-nav {
         margin: 0;
+    }
+
+    #seasonal-image-text {
+        color: #fafafa;
+        width: auto;
+        height: 80px;
+        right: auto;
+        padding: 15px;
+        bottom: 0;
+    }
+
+    #seasonal-image-text h2, h3 {
+        font-size: 1rem;
+    }
+
+    #seasonal-image-text h2 {
+        text-decoration: underline;
+    }
+
+    #seasonal-image {
+        height: 290px;
+        width: 100%;
+        background: url("/assets/css/images/Mobile-sp.jpg") no-repeat center center;
+        overflow: hidden;
+        position: relative;
+        font-size: 1.1rem;
     }
 }
