@@ -66,6 +66,11 @@ h5 {
     position: absolute;
 }
 
+hr {
+    border-top: 1px solid #8f8f8f;
+    width: 100%;
+}
+
 .left-circle-caption {
     width: 33%;
     font-family: "Quicksand", sans-serif;

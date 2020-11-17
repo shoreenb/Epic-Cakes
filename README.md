@@ -121,7 +121,9 @@ In order to highlight the cakes as the main focus, the colour scheme will be sub
 
 ### Testing User Stories from User Experience (UX) Section
 
-### Further Testing
+### Future Improvements
+
+- Gallery Images all the same size
 
 ### Known Bugs
 
