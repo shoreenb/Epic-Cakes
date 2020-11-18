@@ -88,7 +88,7 @@ hr {
     line-height: 20px;
     margin-bottom: 20px;
     color: #000000;
-    text-align: center;  
+    text-align: center;
 }
 
 .shop-text {
@@ -103,7 +103,7 @@ header {
 }
 
 .logo {
-    background: url("/assets/css/images/Epic.png");
+    background: url("/assets/css/images/epic.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,12 +246,12 @@ header {
     width: 20rem;
     background: #777;
     background-size: cover;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 #ShopCarousel {
     margin: auto;
-    
+
 }
 
 /*----------------------------------------------------Footer */
@@ -296,16 +296,13 @@ footer {
     padding-bottom: 0;
 }
 
+#footer-details .logo {
+    border-radius: 50%;
+}
+
 /*----------------------------------------------------Media Queries */
 
-@media screen and (max-width:991px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+@media screen and (max-width:990px) {
 
     .menuitem {
         text-align: center;
