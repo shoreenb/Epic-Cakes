@@ -94,6 +94,7 @@ hr {
 .shop-text {
     padding: 50px;
     margin: auto;
+    text-align: center;
 }
 
 /*----------------------------------------------------Heading */
@@ -200,8 +201,6 @@ header {
 #gallery {
     height: auto;
 }
-
-.image-fluid {}
 
 /*----------------------------------------------------Hover.css */
 
