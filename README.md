@@ -150,6 +150,7 @@ In order to highlight the cakes as the main focus, the colour scheme will be sub
 <span>Photo by <a href="https://unsplash.com/@crissyjarvis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Crissy Jarvis</a> on <a href="https://unsplash.com/s/photos/baking-tools?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 <span>Photo by <a href="https://unsplash.com/@minhtit96?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lê Tit</a> on <a href="https://unsplash.com/s/photos/baking-tools?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 <span>Photo by <a href="https://unsplash.com/@nannamoilanen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nanna Moilanen</a> on <a href="https://unsplash.com/s/photos/baking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@andyc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andy Chilton</a> on <a href="https://unsplash.com/s/photos/baking-equipment?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 w3schools.com/Bootstrap4/bootstrap_images.asp - rounded circle image shape
 

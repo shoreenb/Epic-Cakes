@@ -79,6 +79,23 @@ hr {
     text-align: center;
 }
 
+#shop {
+    margin-bottom: 100px;
+}
+
+#shop p {
+    font-family: "Quicksand", sans-serif;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;  
+}
+
+.shop-text {
+    padding: 50px;
+    margin: auto;
+}
+
 /*----------------------------------------------------Heading */
 header {
     margin: 0;
@@ -136,34 +153,35 @@ header {
 
 #gallery h2 {
     text-align: center;
-    margin: 20px 0;
+    margin: 40px 0;
     font-family: "Quicksand";
     text-transform: uppercase;
 }
 
 #customer-favourites h2 {
     text-align: center;
-    margin: 20px 0;
-    font-family: "Quicksand";
-    text-transform: uppercase;
-}
-
-#shop h2 {
-    text-align: center;
-    margin: 20px 0;
-    font-family: "Quicksand";
-    text-transform: uppercase;
-}
-
-#video-tutorials h2 {
-    text-align: center;
-    margin: 20px 0;
+    margin: 40px 0;
     font-family: "Quicksand";
     text-transform: uppercase;
 }
 
 .left-circle-caption h3 {
     padding-top: 20px;
+}
+
+#shop h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+}
+
+#shop h3 {
+    font-family: "Quicksand", sans-serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
 }
 
 /*----------------------------------------------------Images */
@@ -183,7 +201,7 @@ header {
     height: auto;
 }
 
-/#shop {}
+.image-fluid {}
 
 /*----------------------------------------------------Hover.css */
 
@@ -199,7 +217,7 @@ header {
     color: #fafafa;
     position: relative;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .carousel-container {
@@ -224,11 +242,17 @@ header {
     text-transform: uppercase;
 }
 
-/*----------------------------------------------------Video */
+#shop .carousel-item {
+    height: 20rem;
+    width: 20rem;
+    background: #777;
+    background-size: cover;
+    margin-bottom: 50px; 
+}
 
-#video-tutorials {
-    height: auto;
-    width: auto;
+#ShopCarousel {
+    margin: auto;
+    
 }
 
 /*----------------------------------------------------Footer */
