@@ -179,9 +179,11 @@ header {
     height: auto;
 }
 
-/*#shop {
-  
-}*/
+#gallery {
+    height: auto;
+}
+
+/#shop {}
 
 /*----------------------------------------------------Hover.css */
 
