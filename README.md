@@ -86,10 +86,10 @@ visit the company's social media pages or contact the company if they wish to.
 
 #### Wireframes
 
-![Home Page](Images/Wireframes/home.pdf)
-![Cake Order Page](Images/Wireframes/Cake-Order.pdf)
-![Order Submission Page](Images/Wireframes/Order-Submission-Page.pdf)
-![Submission Confirmation Page](Images/Wireframes/Submission-Confirmation.pdf)
+![Home Page](/images/wireframes/home.pdf)
+![Cake Order Page](/images/wireframes/cake-order.pdf)
+![Order Submission Page](/images/wireframes/order-submission-page.pdf)
+![Submission Confirmation Page](/images/wireframes/submission-confirmation.pdf)
 
 #### Surface
 
