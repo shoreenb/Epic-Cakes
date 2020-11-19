@@ -263,13 +263,16 @@ footer {
     text-align: center;
 }
 
-.social-links {
-    padding-bottom: 15px;
+ul.list-inline.social-links {
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .social-links li a i {
     width: 32px;
     height: 32px;
+    margin-top: 50px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
@@ -288,7 +291,6 @@ footer {
 }
 
 #footer-details {
-    padding: 20px;
     padding-bottom: 0;
 }
 
@@ -296,8 +298,9 @@ footer {
     padding-bottom: 0;
 }
 
-#footer-details .logo {
-    border-radius: 50%;
+.navbar-brand {
+    margin: auto;
+    padding-top: 30px;
 }
 
 /*----------------------------------------------------Media Queries */
@@ -374,6 +377,21 @@ footer {
         bottom: 10px;
 
         position: absolute;
+    }
+
+    #footer-details {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+
+    .social-links li a i {
+        margin-top: 20px;
+    }
+
+    .navbar-brand {
+        margin: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
 }
