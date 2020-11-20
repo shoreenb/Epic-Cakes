@@ -14,7 +14,7 @@
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg container-fluid">
-			<a href="/index.html" class="col-md-2 logo"></a>
+			<a href="index.html" class="col-md-2 logo"></a>
 			<button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,40 +25,49 @@
 						<a href="/index.html" class="hvr-sweep-to-bottom"><span>Home</span></a>
 					</li>
 					<li class="nav-item ui-menu-color-gallery list-inline-item menuitem">
-						<a href="#gallery" class="hvr-sweep-to-bottom"><span>Gallery</span></a>
+						<a href="index.html#gallery" class="hvr-sweep-to-bottom"><span>Gallery</span></a>
 					</li>
 					<li class="nav-item active ui-menu-color-cake list-inline-item menuitem">
-						<a href="/cakes.html" class="hvr-sweep-to-bottom"><span>Cakes</span></a>
+						<a href="cakes.html" class="hvr-sweep-to-bottom"><span>Cakes</span></a>
 					</li>
 					<li class="nav-item ui-menu-color-customer list-inline-item menuitem">
-						<a href="#customer-favourites" class="hvr-sweep-to-bottom"><span>Customer Favourites</span></a>
+						<a href="index.html#customer-favourites" class="hvr-sweep-to-bottom"><span>Customer Favourites</span></a>
 					</li>
 					<li class="nav-item ui-menu-color-shop list-inline-item menuitem">
-						<a href="#shop" class="hvr-sweep-to-bottom"><span>Shop</span></a>
+						<a href="index.html#shop" class="hvr-sweep-to-bottom"><span>Shop</span></a>
 					</li>
 				</ul>
 				<form class="form-inline">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					<input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
 				</form>
 			</div>
 		</nav>
 	</header>
 
 <section>
-<div class="container mt-2">
-<div class="row">
-<div class="col-md-6 offset-md-3">
-<div class="card card-body">
-
+    <div class="container mt-2">
+    <div class="row">
+    <div class="col-md-6 offset-md-3">
+    <div class="card card-body">
 
     <form class="was-validated needs-validation" novalidate>
-<fieldset disabled>
-    <div class="form-group">
-      <label for="disabledTextInput">Name of Cake</label>
-      <input type="text" id="disabledTextInput" class="form-control" placeholder="Naked 2 Tier Cake">
-    </div>
-    </fieldset>
+
+<div class="mb-3">
+        <div class="input-group is-invalid">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="validatedInputGroupSelect">Name of Cake</label>
+        </div>
+        <select class="custom-select" id="validatedInputGroupSelect" required>
+            <option value="">Choose...</option>
+            <option value="1">Naked 2-Tier</option>
+            <option value="2">Buttercream Birthday</option>
+            <option value="3">Pretty In Pink</option>
+            <option value="4">Chocolate Lovers Dream</option>
+            <option value="5">Sophisticated Sweet</option>
+            <option value="6">Smooth Sensation</option>
+        </select>
+        </div>
+       </div>
 
 
     <div class="mb-3">
@@ -66,7 +75,7 @@
         <div class="input-group-prepend">
             <label class="input-group-text" for="validatedInputGroupSelect">Number of Tiers</label>
         </div>
-        <select class="custom-select" id="validatedInputGroupSelect" required>
+        <select class="custom-select" id="" required>
             <option value="">Choose...</option>
             <option value="1">One</option>
             <option value="2">Two</option>
@@ -115,6 +124,7 @@
             <option value="1">None</option>
             <option value="2">Roses and Blackberries</option>
             <option value="3">Sprinkles</option>
+            <option value="4">Macaroons</option>
         </select>
         </div>
        </div>
@@ -254,3 +264,5 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
 		integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
 	</script>
+</body>
+</html>
