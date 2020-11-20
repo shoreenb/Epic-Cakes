@@ -346,120 +346,127 @@ ul.list-inline.social-links {
 
 /*----------------------------------------------------Media Queries */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:768px) {
 
     #seasonal-image {
-        height: auto;
-        width: auto;
-        background: no-repeat center center;
+        height: 600px;
+        width: 100%;
+        background: url("/assets/css/images/christmas-cake.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
-    }
-
-}
-
-@media screen and (max-width:943px) {
-
-    .menuitem {
-        text-align: center;
-        padding: 0;
-        height: auto;
-        width: auto;
-    }
-
-    .menuitem span {
-        width: 100%;
-        padding-top: 0px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 300;
-        letter-spacing: 2px;
-    }
-
-    .menuitem a {
-        height: 30px;
     }
 
     .logo {
-        min-height: 265px;
-    }
-
-    .nav-bar-nav {
-        margin: 0;
+        min-width: 130px;
     }
 
     #seasonal-image-text {
-        color: #fafafa;
-        width: auto;
-        height: auto;
+        width: 100%;
         right: auto;
-        padding: 15px;
-        bottom: 0;
     }
 
-    #seasonal-image-text h2,
-    h3 {
-        font-size: 1rem;
+    @media screen and (max-width:400px) {
+
+        .menuitem {
+            text-align: center;
+            padding: 0;
+            height: auto;
+            width: auto;
+        }
+
+        .menuitem span {
+            width: 100%;
+            padding-top: 0px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .menuitem a {
+            height: 30px;
+        }
+
+        .logo {
+            min-height: 265px;
+        }
+
+        .nav-bar-nav {
+            margin: 0;
+        }
+
+        #seasonal-image-text {
+            color: #fafafa;
+            width: auto;
+            height: auto;
+            right: auto;
+            padding: 15px;
+            bottom: 0;
+        }
+
+        #seasonal-image-text h2,
+        h3 {
+            font-size: 1rem;
+        }
+
+        #seasonal-image-text h2 {
+            text-decoration: underline;
+        }
+
+        #seasonal-image {
+            height: 290px;
+            width: 100%;
+            background: url("/assets/css/images/mobile-sp.jpg") no-repeat center center;
+            overflow: hidden;
+            position: relative;
+            font-size: 1.1rem;
+        }
+
+        .carousel-container {
+            font-size: 80%;
+            font-family: "Quicksand";
+            letter-spacing: 4px;
+            text-align: center;
+            width: 100%;
+            height: 280px;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.4);
+            bottom: 10px;
+            position: absolute;
+        }
+
+        #customer-favourites h2 {
+            padding: 5px;
+        }
+
+        #shop h2 {
+
+            margin-bottom: 0;
+
+        }
+
+        #cake-image img {
+            height: auto;
+            width: 100%;
+            background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+            overflow: hidden;
+            position: relative;
+            font-size: 1.1rem;
+        }
+
+        #footer-details {
+            padding-bottom: 0;
+            padding-top: 20px;
+        }
+
+        .social-links li a i {
+            margin-top: 20px;
+        }
+
+        .navbar-brand {
+            margin: auto;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
     }
-
-    #seasonal-image-text h2 {
-        text-decoration: underline;
-    }
-
-    #seasonal-image {
-        height: 290px;
-        width: 100%;
-        background: url("/assets/css/images/mobile-sp.jpg") no-repeat center center;
-        overflow: hidden;
-        position: relative;
-        font-size: 1.1rem;
-    }
-
-    .carousel-container {
-        font-size: 80%;
-        font-family: "Quicksand";
-        letter-spacing: 4px;
-        text-align: center;
-        width: 100%;
-        height: 280px;
-        padding: 40px;
-        background-color: rgba(0, 0, 0, 0.4);
-        bottom: 10px;
-        position: absolute;
-    }
-
-    #customer-favourites h2 {
-        padding: 5px;
-    }
-
-    #shop h2 {
-
-        margin-bottom: 0;
-
-    }
-
-    #cake-image img {
-        height: auto;
-        width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
-        overflow: hidden;
-        position: relative;
-        font-size: 1.1rem;
-    }
-
-    #footer-details {
-        padding-bottom: 0;
-        padding-top: 20px;
-    }
-
-    .social-links li a i {
-        margin-top: 20px;
-    }
-
-    .navbar-brand {
-        margin: auto;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-}
