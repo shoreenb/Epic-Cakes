@@ -68,6 +68,12 @@ hr {
     margin-bottom: 20px;
     color: #000000;
     text-align: center;
+    text-decoration: none;
+}
+
+.left-circle-caption a {
+    color: #000000;
+    text-decoration: none;
 }
 
 #shop {
@@ -98,6 +104,9 @@ hr {
     margin: 1rem;
 }
 
+.card-body {
+    margin-bottom: 100px;
+}
 
 /*----------------------------------------------------Header */
 header {
@@ -130,7 +139,7 @@ header {
     padding: 0;
 }
 
-#nav .active {
+.active {
     text-decoration-line: 1px solid #000;
 }
 
@@ -337,7 +346,20 @@ ul.list-inline.social-links {
 
 /*----------------------------------------------------Media Queries */
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:1200px) {
+
+    #seasonal-image {
+        height: auto;
+        width: auto;
+        background: no-repeat center center;
+        overflow: hidden;
+        position: relative;
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (max-width:943px) {
 
     .menuitem {
         text-align: center;
@@ -370,7 +392,7 @@ ul.list-inline.social-links {
     #seasonal-image-text {
         color: #fafafa;
         width: auto;
-        height: 80px;
+        height: auto;
         right: auto;
         padding: 15px;
         bottom: 0;
@@ -440,7 +462,4 @@ ul.list-inline.social-links {
         padding-bottom: 20px;
         padding-top: 20px;
     }
-
-
-
 }
