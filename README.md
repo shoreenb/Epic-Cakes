@@ -110,7 +110,7 @@ mainly monochromatic: #ffffff / #fafafa / #000000 for text and #777 / #8f8f8f fo
 The main font used is a sans-serif font 'Quicksand' with an alternative sans-serif if it is not accessible. This font is clear, modern and easy to
 read, which is in-keeping with the theme.
 
-![Quicksand Font](/assets/css/images/quicksand.png)
+![Quicksand Font](images/quicksand.png)
 
 ### Imagery
 
