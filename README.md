@@ -8,8 +8,9 @@ something they like enough to follow the process through to the order form. The 
 image-driven and easy to navigate, with minimal steps to the order form, which are as clear and easy to follow as possible in order to retain
 customer interest.
 
-[Link to Live project](/https://shoreenb.github.io/epic-cakes/)\
-Mock up image
+[Link to Live project](/https://shoreenb.github.io/epic-cakes/)
+
+![Image](assets/images/responsive.png)
 
 # Table of Contents
 
@@ -244,7 +245,7 @@ Viewport sizes from small (e.g. iPhone5), to large (Desktop 1200px and above) we
 
 ### HTML5 validator
 
-- :exclamation: Known Issues - There are error/warning messages for aria labels, which are attached to Bootstrap Modal elements and Font awesome icons.
+- Known Issues - There are error/warning messages for aria labels, which are attached to Bootstrap Modal elements and Font awesome icons.
 - [W3C Markup Validator](https://validator.w3.org/) - Home Page - Pass
 - [W3C Markup Validator](https://validator.w3.org/) - Cake Page - Pass
 - [W3C Markup Validator](https://validator.w3.org/) - Order Page - Pass
