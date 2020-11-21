@@ -41,7 +41,7 @@ h5 {
 #seasonal-image-text {
     color: #da1a1a;
     font-size: 80%;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     letter-spacing: 4px;
     text-align: center;
 
@@ -138,10 +138,6 @@ header {
     padding: 0;
 }
 
-#nav .active {
-    text-decoration-line: 1px solid #000;
-}
-
 .menuitem {
     height: 170px;
     width: 150px;
@@ -176,14 +172,14 @@ header {
 #gallery h2 {
     text-align: center;
     margin: 40px 0;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     text-transform: uppercase;
 }
 
 #customer-favourites h2 {
     text-align: center;
     margin: 40px 0;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     text-transform: uppercase;
 }
 
@@ -194,7 +190,7 @@ header {
 #shop h2 {
     text-align: center;
     margin: 40px 0;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     text-transform: uppercase;
 }
 
@@ -209,7 +205,7 @@ header {
 #first-cake h2 {
     text-align: center;
     margin-bottom: 40px;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     text-transform: uppercase;
 }
 
@@ -224,7 +220,7 @@ header {
 #order-form-text h2 {
     text-align: center;
     margin: 40px 0;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     text-transform: uppercase;
 }
 
@@ -272,7 +268,7 @@ header {
 
 .carousel-container {
     font-size: 80%;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     letter-spacing: 4px;
     text-align: center;
     width: 100%;
@@ -411,7 +407,7 @@ ul.list-inline.social-links {
 
     .carousel-container {
         font-size: 80%;
-        font-family: "Quicksand";
+        font-family: "Quicksand", sans-serif;
         letter-spacing: 4px;
         text-align: center;
         width: 100%;

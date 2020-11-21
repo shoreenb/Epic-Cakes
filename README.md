@@ -8,8 +8,10 @@ something they like enough to follow the process through to the order form. The 
 image-driven and easy to navigate, with minimal steps to the order form, which are as clear and easy to follow as possible in order to retain
 customer interest.
 
-Link to Live project
+![Link to Live project](/https://shoreenb.github.io/epic-cakes/)
 Mock up image
+
+# Table of Contents
 
 ## User Experience (UX)
 
@@ -41,7 +43,8 @@ The user can:
 
 #### First Time Visitor:
 
-1. As a first time visitor to the website, I want to quickly and easily navigate the site so that I can find what I need without too much effort.
+1. As a first time visitor to the website, I want to quickly and easily navigate the site so that I can find the cake I want to order without too
+   much effort.
 2. As a first time visitor to the website, I want to see cakes that have been made for previous customers so that I can see the standard of work
    in detail to decide if I want to put in an order.
 3. As a first time visitor to the website, I want to read testimonials and visit their social media accounts to see how previous customers felt about
@@ -60,6 +63,22 @@ The user can:
 3. As a returning visitor, who has decided on what I want to order, I want to easily find where I can order and for the ordering process to be simple.
 
 ### Design
+
+#### Colour scheme
+
+The aesthetic of this website is minimal. The cake designs themselves have a variety of colours and decorations, so the colour scheme was kept
+mainly monochromatic: #ffffff / #fafafa / #000000 for text and #777 / #8f8f8f for accents or backgrounds.
+
+### Typography
+
+The main font used is a sans-serif font 'Quicksand' with an alternative sans-serif if it is not accessible. This font is clear, modern and easy to
+read, which is in-keeping with the theme.
+
+![Quicksand Font](/assets/css/images/wireframes/home.pdf)
+
+### Imagery
+
+Images on this website are the main focus so they need to be high quality and responsive, without much interference from the backgound.
 
 #### Strategy
 
@@ -86,10 +105,9 @@ visit the company's social media pages or contact the company if they wish to.
 
 #### Wireframes
 
-![Home Page](/images/wireframes/home.pdf)
-![Cake Order Page](/images/wireframes/cake-order.pdf)
-![Order Submission Page](/images/wireframes/order-submission-page.pdf)
-![Submission Confirmation Page](/images/wireframes/submission-confirmation.pdf)
+![Home Page](/assets/wireframes/home.pdf)
+![Cake Order Page](/assets/wireframes/cake-order.pdf)
+![Order Submission Page](/assets/wireframes/order-submission-page.pdf)
 
 #### Surface
 
@@ -120,6 +138,29 @@ In order to highlight the cakes as the main focus, the colour scheme will be sub
 ## Testing
 
 ### Testing User Stories from User Experience (UX) Section
+
+Error: Bad value for attribute id on element select: An ID must not be the empty string.
+
+From line 87, column 37; to line 87, column 81
+
+          <select class="custom-select" id="" required>↩
+
+          Error: Element h5 not allowed as child of element span in this context. (Suppressing further errors from this subtree.)
+
+From line 209, column 81; to line 209, column 84
+
+ub"><span><h5>Home</
+
+Content model for element span:
+Phrasing content.
+
+Warning: Empty heading.
+
+From line 224, column 5; to line 224, column 28
+
+m-2">↩ <h5 class="general-sub"></h5>↩
+
+#nav .active 1px is not a text-decoration-line value : 1px solid #000
 
 ### Future Improvements
 
