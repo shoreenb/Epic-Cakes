@@ -1,5 +1,9 @@
 # Epic Cakes Website
 
+[Link to Live project](/https://shoreenb.github.io/epic-cakes/)
+
+![Image](assets/images/responsive.png)
+
 This website aims to attract potential customers and baking enthusiasts who want to purchase a cake, buy baking equipment and/or find inspiration
 and learn new skills.
 
@@ -7,12 +11,6 @@ The main aim of the website is to advertise bespoke cakes and baking equipment t
 something they like enough to follow the process through to the order form. The cake market is quite saturated so the UX will have to be
 image-driven and easy to navigate, with minimal steps to the order form, which are as clear and easy to follow as possible in order to retain
 customer interest.
-
-[Link to Live project](/https://shoreenb.github.io/epic-cakes/)
-
-![Image](assets/images/responsive.png)
-
-# Table of Contents
 
 ## User Experience (UX)
 
@@ -90,9 +88,9 @@ visit the company's social media pages or contact the company if they wish to.
 
 I created wireframes using Balsamiq, however the layout did change slightly during the implementation process:
 
-[Home Page](/Epic-Cakes/wireframes/home.pdf)\
-[Cake Order Page](/Epic-Cakes/wireframes/cake-order.pdf)\
-[Order Submission Page](/Epic-Cakes/wireframes/order-submission.pdf)
+[Home Page](wireframes/home.pdf)\
+[Cake Order Page](wireframes/cake-order.pdf)\
+[Order Submission Page](wireframes/order-submission.pdf)
 
 #### Mockups
 
@@ -382,9 +380,11 @@ repository. To do this:
 
 ### Acknowledgements
 
-- The theme of this project came from my mum who also needs a website to market her delicious cakes!
+- I decided to choose the theme of this project because my mum needs a website to market her delicious cakes!
 - The utmost gratitude goes to everyone from the slack community who replied to my questions and gave constructive helpful feedback.
+  Special thanks to JimLynx who helped me sort at last minute issue!
 - Many thanks to my mentor for guiding me through this process.
+- Last but not least thanks to my husband who looked after the family whilst I was glued to this project!
 
 #### Releases
 

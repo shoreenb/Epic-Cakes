@@ -145,10 +145,6 @@ header {
     padding: 0px;
 }
 
-.footer-padding {
-    padding: 60px;
-}
-
 .menuitem a {
     width: 100%;
     text-decoration: none;
@@ -310,6 +306,10 @@ footer {
     text-align: center;
 }
 
+.footer-padding {
+    padding: 60px;
+}
+
 ul.list-inline.social-links {
     margin-bottom: 0;
     padding-top: 10px;
@@ -352,7 +352,7 @@ ul.list-inline.social-links {
 
 /*----------------------------------------------------Media Queries */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
 
     .menuitem {
         text-align: center;
