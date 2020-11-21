@@ -105,9 +105,9 @@ visit the company's social media pages or contact the company if they wish to.
 
 #### Wireframes
 
-![Home Page](/assets/wireframes/home.pdf)
-![Cake Order Page](/assets/wireframes/cake-order.pdf)
-![Order Submission Page](/assets/wireframes/order-submission-page.pdf)
+![Home Page](/Epic-Cakes/assets/wireframes/home.pdf)
+![Cake Order Page](/Epic-Cakes/assets/wireframes/cake-order.pdf)
+![Order Submission Page](/Epic-Cakes/assets/wireframes/order-submission-page.pdf)
 
 #### Surface
 
