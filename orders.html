@@ -8,16 +8,19 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<title>Cakes</title>
+	<title>Order Form | Epic Cakes</title>
 </head>
 
 <body>
 	<header>
+    <!-- Logo and NavBar -->
 		<nav class="navbar navbar-expand-lg container-fluid">
+        <!--Logo-->
 			<a href="index.html" class="col-md-2 logo"></a>
 			<button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- NavBar Links --> 
 			<div class="collapse navbar-collapse justify-content-md-between justify-content-sm-center"
 				id="navbarNavAltMarkup">
 				<ul class="navbar-nav mr-auto list-inline menucontainer">
@@ -37,6 +40,7 @@
 						<a href="index.html#shop" class="hvr-sweep-to-bottom"><span>Shop</span></a>
 					</li>
 				</ul>
+                <!-- Search Bar -->   
 				<form class="form-inline">
 					<input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
 				</form>
@@ -44,154 +48,164 @@
 		</nav>
 	</header>
 
-<section>
+<section id="order-form">
+	<div id="order-form-text">
+			<h2>Order Form</h2>
+			<hr>
+		</div>
+
     <div class="container mt-2">
-    <div class="row">
-    <div class="col-md-6 offset-md-3">
-    <div class="card card-body">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card card-body">
+               <!-- Cake Order Form --> 
+                    <form class="was-validated needs-validation" novalidate>
+                        <div class="mb-3">
+                            <div class="input-group is-invalid">
+                            <!-- First Order Option -->
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="validatedInputGroupSelect">Name of Cake</label>
+                                </div>
+                                <select class="custom-select" id="validatedInputGroupSelect" required>
+                                    <option value="">Choose...</option>
+                                    <option value="1">Naked 2-Tier</option>
+                                    <option value="2">Buttercream Birthday</option>
+                                    <option value="3">Pretty In Pink</option>
+                                    <option value="4">Chocolate Lovers Dream</option>
+                                    <option value="5">Sophisticated Sweet</option>
+                                    <option value="6">Smooth Sensation</option>
+                                </select>
+                            </div>
+                        </div>
+                            
+                            <!-- Second Order Option -->
+                            <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="validatedInputGroupSelect">Number of Tiers</label>
+                                    </div>
+                                    <select class="custom-select" id="" required>
+                                        <option value="">Choose...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                      
+                            <!-- Third Order Option -->
+                            <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="validatedInputGroupSelect">Sponge Flavour</label>
+                                    </div>
+                                    <select class="custom-select" id="" required>
+                                        <option value="">Choose...</option>
+                                        <option value="1">Vanilla</option>
+                                        <option value="2">Chocolate</option>
+                                    </select>
+                                </div>
+                            </div>
 
-    <form class="was-validated needs-validation" novalidate>
+                            <!-- Fourth Order Option -->
+                            <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="validatedInputGroupSelect">Buttercream Flavour</label>
+                                    </div>
+                                    <select class="custom-select" id="" required>
+                                        <option value="">Choose...</option>
+                                        <option value="1">Vanilla</option>
+                                        <option value="2">Chocolate</option>
+                                        <option value="3">Strawberry</option>
+                                    </select>
+                                </div>
+                            </div>
 
-<div class="mb-3">
-        <div class="input-group is-invalid">
-        <div class="input-group-prepend">
-            <label class="input-group-text" for="validatedInputGroupSelect">Name of Cake</label>
-        </div>
-        <select class="custom-select" id="validatedInputGroupSelect" required>
-            <option value="">Choose...</option>
-            <option value="1">Naked 2-Tier</option>
-            <option value="2">Buttercream Birthday</option>
-            <option value="3">Pretty In Pink</option>
-            <option value="4">Chocolate Lovers Dream</option>
-            <option value="5">Sophisticated Sweet</option>
-            <option value="6">Smooth Sensation</option>
-        </select>
-        </div>
-       </div>
+                            <!-- Fifth Order Option -->
+                            <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="validatedInputGroupSelect">Decoration</label>
+                                    </div>
+                                    <select class="custom-select" id="" required>
+                                        <option value="">Choose...</option>
+                                        <option value="1">None</option>
+                                        <option value="2">Roses and Blackberries</option>
+                                        <option value="3">Sprinkles</option>
+                                        <option value="4">Macaroons</option>
+                                    </select>
+                                </div>
+                            </div>
 
-
-    <div class="mb-3">
-        <div class="input-group is-invalid">
-        <div class="input-group-prepend">
-            <label class="input-group-text" for="validatedInputGroupSelect">Number of Tiers</label>
-        </div>
-        <select class="custom-select" id="" required>
-            <option value="">Choose...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-        </select>
-        </div>
-       </div>
-  
- <div class="mb-3">
-        <div class="input-group is-invalid">
-        <div class="input-group-prepend">
-            <label class="input-group-text" for="validatedInputGroupSelect">Sponge Flavour</label>
-
-        </div>
-        <select class="custom-select" id="" required>
-            <option value="">Choose...</option>
-            <option value="1">Vanilla</option>
-            <option value="2">Chocolate</option>
-        </select>
-        </div>
-       </div>
-
-       <div class="mb-3">
-        <div class="input-group is-invalid">
-        <div class="input-group-prepend">
-            <label class="input-group-text" for="validatedInputGroupSelect">Buttercream Flavour</label>
-
-        </div>
-        <select class="custom-select" id="" required>
-            <option value="">Choose...</option>
-            <option value="1">Vanilla</option>
-            <option value="2">Chocolate</option>
-            <option value="3">Strawberry</option>
-        </select>
-        </div>
-       </div>
-
-       <div class="mb-3">
-        <div class="input-group is-invalid">
-        <div class="input-group-prepend">
-            <label class="input-group-text" for="validatedInputGroupSelect">Decoration</label>
-
-        </div>
-        <select class="custom-select" id="" required>
-            <option value="">Choose...</option>
-            <option value="1">None</option>
-            <option value="2">Roses and Blackberries</option>
-            <option value="3">Sprinkles</option>
-            <option value="4">Macaroons</option>
-        </select>
-        </div>
-       </div>
-
-  <div class="mb-3">
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="validatedInputGroupPrepend">Date</span>
-      </div>
-      <input type="date" class="form-control" aria-describedby="validatedInputGroupPrepend" required>
-    </div>
-    <div class="invalid-feedback">
-      Please enter the date your order is required by
-    </div>
-  </div>
+                            <!-- Date Order Is Required By -->
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="validatedInputGroupPrepend">Date</span>
+                                    </div>
+                                    <input type="date" class="form-control" aria-describedby="validatedInputGroupPrepend" required>
+                                    </div>
+                                    <div class="invalid-feedback">
+                                    Please enter the date your order is required by
+                                    </div>
+                                </div>
     
-    <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="firstname">First name</label>
-      <input type="text" class="form-control" id="firstname" autocomplete="off" required>
-      <div class="invalid-feedback">
-      
-    </div>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="lastname">Last name</label>
-      <input type="text" class="form-control" id="lastname" autocomplete="off" required>
-    <div class="invalid-feedback">
-      
-    </div>
-    </div>
-  </div>
-<div class="mb-3">
-    <div class="input-group is-invalid">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="">Tel.No.</span>
-      </div>
-      <input type="number" class="form-control is-invalid min:)" placeholder="Please enter a valid phone number" aria-describedby="validatedInputGroupPrepend" required>
-    </div>
-    <div class="invalid-feedback">
-    
-    </div>
-  </div>
+                            <!-- Personal Details -->
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                <!-- First And Last Name -->
+                                    <label for="firstname">First name</label>
+                                        <input type="text" class="form-control" id="firstname" autocomplete="off" required>
+                                            <div class="invalid-feedback">
+                                        </div>
+                                    </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastname">Last name</label>
+                                        <input type="text" class="form-control" id="lastname" autocomplete="off" required>
+                                        <div class="invalid-feedback">
+                                    </div>
+                                </div>
+                            </div>
 
-  <div class="mb-3">
-    <div class="input-group is-invalid">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="">Email</span>
-      </div>
-      <input id="myemail" type="email" class="form-control is-invalid" placeholder="Please enter a valid email" aria-describedby="validatedInputGroupPrepend" autocomplete="off" required>
-    </div>
-    <div class="invalid-feedback">
-    
-    </div>
-  </div>
-  <button type="submit" class="a btn btn-sm btn-danger btn-block">Submit Order</button>
-  
-   </form>
-   </div>
-    </div>
-    </div>
-   </div>
-</section>
+                            <!-- Telephone Number -->
+                            <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">Tel.No.</span>
+                                    </div>
+                                        <input type="number" class="form-control is-invalid min:)" placeholder="Please enter a valid phone number" aria-describedby="validatedInputGroupPrepend" required>
+                                    </div>
+                                        <div class="invalid-feedback">  
+                                    </div>
+                                </div>
 
+                            <!-- Telephone Number -->
+                            <div class="mb-3">
+                                <div class="input-group is-invalid">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">Email</span>
+                                    </div>
+                                        <input id="myemail" type="email" class="form-control is-invalid" placeholder="Please enter a valid email" aria-describedby="validatedInputGroupPrepend" autocomplete="off" required>
+                                    </div>
+                                        <div class="invalid-feedback">
+                                    </div>
+                                </div>
+
+                                <!-- Submit Order Button -->
+                                <button type="submit" class="a btn btn-sm btn-danger btn-block">Submit Order</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Footer -->
 	<footer class="container-fluid">
 		<div id="footer-details" class="row no-gutters">
 			<div class="col-sm-2 ">
+            <!-- NavBar Links-->
 				<a href="index.html" class="hvr-sweep-to-bottom menuitem general-sub"><span><h5>Home</h5></span></a>
 			</div>
 			<div class="col-sm-2">
@@ -204,6 +218,8 @@
 				<a href="index.html#shop"
 					class="hvr-sweep-to-bottom menuitem general-sub"><span><h5>Shop</h5></span></a>
 			</div>
+
+            <!-- Social Links (Icons) -->
 			<div class="col-sm-2">
 				<h5 class="general-sub"></h5>
 				<ul class="list-inline social-links">
@@ -240,15 +256,17 @@
 				</ul>
 			</div>
 			<div class="col-sm-2">
+            <!-- Logo -->
 				<nav class="footer-navbar">
 					<a class="navbar-brand" href="index.html">
-						<img src="/assets/css/images/footer-logo.png" class="rounded-circle" alt="logo" width="130" height="130" loading="lazy">
+						<img src="/assets/css/images/logo/footer-logo.png" class="rounded-circle" alt="logo" width="130" height="130" loading="lazy">
                     </a>
 				</nav>
 			</div>
 		</div>
 		<div class="row no-gutters">
 			<div id="footer-about" class="col">
+            <!-- About Description -->
 				<h5 class="general-sub">About Us</h5>
 				<p>At Epic Cakes, we strive for the highest standards, only the best will do!</p>
 			</div>
