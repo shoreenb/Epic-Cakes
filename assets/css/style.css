@@ -113,7 +113,7 @@ header {
 }
 
 .logo {
-    background: url("/assets/css/images/logo/epic.png");
+    background: url("../images/logo/epic.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,6 +142,10 @@ header {
     height: 170px;
     width: 150px;
     text-align: center;
+    padding: 0px;
+}
+
+.footer-padding {
     padding: 60px;
 }
 
@@ -229,7 +233,7 @@ header {
 #seasonal-image {
     height: 600px;
     width: 100%;
-    background: url("/assets/css/images/hero-img/christmas-cake.jpg") no-repeat center center;
+    background: url("../images/hero-img/christmas-cake.jpg") no-repeat center center;
     overflow: hidden;
     position: relative;
 }
@@ -399,7 +403,7 @@ ul.list-inline.social-links {
     #seasonal-image {
         height: 290px;
         width: 100%;
-        background: url("/assets/css/images/mobile-sp.jpg") no-repeat center center;
+        background: url("../images/mobile-sp.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -434,7 +438,7 @@ ul.list-inline.social-links {
     #cake-image1 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -443,7 +447,7 @@ ul.list-inline.social-links {
     #cake-image2 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -452,7 +456,7 @@ ul.list-inline.social-links {
     #cake-image3 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -461,7 +465,7 @@ ul.list-inline.social-links {
     #cake-image4 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -470,7 +474,7 @@ ul.list-inline.social-links {
     #cake-image5 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -479,7 +483,7 @@ ul.list-inline.social-links {
     #cake-image6 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -515,7 +519,7 @@ ul.list-inline.social-links {
     #seasonal-image {
 
         width: 100%;
-        background: url("/assets/css/images/hero-img/christmas.jpg") no-repeat center center;
+        background: url("../images/hero-img/christmas.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -543,7 +547,7 @@ ul.list-inline.social-links {
     #cake-image1 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -552,7 +556,7 @@ ul.list-inline.social-links {
     #cake-image2 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -561,7 +565,7 @@ ul.list-inline.social-links {
     #cake-image3 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -570,7 +574,7 @@ ul.list-inline.social-links {
     #cake-image4 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -579,7 +583,7 @@ ul.list-inline.social-links {
     #cake-image5 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
@@ -588,7 +592,7 @@ ul.list-inline.social-links {
     #cake-image6 img {
         height: auto;
         width: 100%;
-        background: url("/assets/css/images/mobile-c1.jpg") no-repeat center center;
+        background: url("../images/mobile-c1.jpg") no-repeat center center;
         overflow: hidden;
         position: relative;
         font-size: 1.1rem;
