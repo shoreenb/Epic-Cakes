@@ -1,6 +1,6 @@
 # Epic Cakes Website
 
-[Link to Live project](/https://shoreenb.github.io/epic-cakes/)
+[Link to Live project](https://shoreenb.github.io/epic-cakes/)
 
 ![Image](assets/images/responsive.png)
 
